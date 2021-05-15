@@ -31,7 +31,7 @@ public class AuthorizationServerApplication implements CommandLineRunner {
 		user.setUsername("1@uengine.org");
 		user.setPassword(passwordEncoder.encode("1"));
 		user.setNickName("유엔진");
-		user.setAddress("서울시");
+		user.setAddress("서울시 rsadf");
 		user.setRole("USER_ADMIN");
 		repository.save(user);
 
